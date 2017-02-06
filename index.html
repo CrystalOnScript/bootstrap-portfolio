@@ -7,46 +7,39 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
-<nav class="navbar navbar-default">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-	    <div class="bluebackground navbar-left pull-left">
-	      <ul class="nav navbar-nav">
-	        <li>Crystal Lambert</li>
-	      </ul>
-	    </div>
-	    <div class="navbar-right floatright">  
-	      <ul class="nav navbar-nav">
-	        <li><a href="#">Link</a></li>
-	        <li><a href="#">Link</a></li>
-	        <li><a href="#">Link</a></li>
-	      </ul>
-	    </div>
-  </div>
- </nav>
-<div class="container">
+<div>
+	<div class="container" id="navbar">
+		<div class="col-sm-3 bluebackground" role="navigation">
+			Crystal Lambert
+		</div>
+		<div class="col-sm-5">
+		</div>
+		<div id="navlinks" class="col-sm-4">
+			<a class="navlin" href="#">About</a>
+			<a class="navlin" href="#">About</a>
+			<a class="navlin" href="#">About</a>
+		</div>
+	</div>	
+	</div>
+</div>
+<div class="container" id="mainview">
 	<section class="row">
 		<section class="col-sm-6">
 			<section class="border">
-      <h1>About Me</h1>
-      
-      <p><img src="assets/images/crystal.jpg" class="img-responsive" id="mypic" alt="Crystal Lambert">My name is Crystal and I am full stack web developer in training at UC Berkeley.I am an extremely passionate person who loves to learn new things. I take on challenges like alligators take down prey, with a vice grip death roll. This is also how I will drink my first two cups of coffee every morning.
-      </p>
-      <p>Please keep an eye on this page for more soon!</p>
-    </section>
-
+      			<h1>About Me</h1>
+			      
+			      <p><img src="assets/images/crystal.jpg" class="img-responsive" id="mypic" alt="Crystal Lambert">My name is Crystal and I am full stack web developer in training at UC Berkeley.I am an extremely passionate person who loves to learn new things. I take on challenges like alligators take down prey, with a vice grip death roll. This is also how I will drink my first two cups of coffee every morning.
+			      </p>
+			      <p>Please keep an eye on this page for more soon!</p>
+    		</section>
 		</section>
 		<section class="col-sm-1">
-			
 		</section>
 		<section class="col-sm-4 border">
-			<div id="connect">
+		 <div id="connect">
 	        <h2>Connect with Me</h2>
 	        <a href="#"><img src="assets/images/github.png" class="social img-responsive pull-left" alt="GitHub" /></a>
 	        <a href="#"><img src="assets/images/linkedin.jpg" class="social img-responsive pull-left" alt="LinkedIn" /></a>
@@ -59,7 +52,11 @@
 	</section>
 
 </div>
-
+<footer>
+    <div class="container">
+      Copyright &copy; 2017 Crystal Lambert
+    </div>
+  </footer>
 
 </body>
 </html>
